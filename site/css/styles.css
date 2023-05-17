@@ -1,0 +1,35 @@
+p {
+    font-size: 30px;
+    color: aqua;
+}
+
+#link-hola{
+    color: blueviolet;
+    border-style: dotted;
+}
+
+.link {
+    border: solid 5px;
+}
+
+#parrafo-importante{
+    border-style: solid;
+    padding-bottom: 200px;
+    padding-left: 80px;
+    padding-right: 400px;
+    padding-top: 70px;
+    margin-bottom: 150px;
+}
+
+.rotating {
+    animation: spin 2s linear infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(360deg);}
+    100%{ transform: rotateY(0deg)}; 
+  }
+  
+  
